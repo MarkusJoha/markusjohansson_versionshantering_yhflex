@@ -12,7 +12,7 @@ body {
 
 .note {
     transform: scale(1);
-    transition: all .2s ease-in-out;
+    transition: all 0.2s ease-in-out;
     height: 200px;
     box-sizing: border-box;
     padding: 16px;
@@ -40,8 +40,16 @@ body {
     background: rgba(0, 0, 0, 0.2);
 }
 
-.note:hover{
-  transform: scale(1.1);
-  transition-duration: 0.5s;
-  transition: all .2s ease-in-out;
+.note:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    transition: all 0.2s ease-in-out;
+}
+
+footer {
+    bottom: 0;
+    position: fixed;
+    padding: 0.5rem;
+    background-color: #008000;
+    opacity: 50%;
 }
